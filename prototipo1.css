@@ -1,0 +1,137 @@
+
+
+
+
+
+#M{
+
+Background-color:Silver;
+
+height:40px;
+width:1000px;
+margin:auto
+
+}
+
+#base{
+	background-color:#996699;
+	height: 500px;
+	width: 600px;
+	margin-left: 200px;
+} 
+
+
+#P{
+background-color:#996699;
+height:100px;
+width:1000px;
+margin-left: 170px;
+}
+
+P{
+background-color:#996699;
+
+margin-left: 170px;
+}
+
+P:hover {color:white;
+font-family: verdana;
+}
+
+
+b{
+Font-size:30px ;
+}
+
+M,header:hover{
+Background-color:Black;
+color:white;
+height:40px;
+}
+
+*{padding:0px;
+margin:5px;
+}
+
+ul , ol{
+list-style:none;
+
+}
+
+a{Text-Decoration:none;
+color:white;
+}
+
+   .juan li  {
+ Background-Color:black;
+ Color:White;
+ Text-Decoration:none;
+ Padding:10px 20px;
+ Display:block;
+
+-moz-border-radius: 10px ;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+
+moz-box-shadow: 0 8px 2px pink;
+-webkit-box-shadow: 0 8px pink;
+box-shadow: 0 8px 2px pink;
+}
+
+.juan,li:hover {
+background-color:silver;
+height:45px
+
+}
+
+.juan > li {
+float:left;
+}
+
+.juan li ul {
+display:none;
+position: absolute;
+min-width:140px;
+}
+
+.juan li:hover>ul {
+display:block;
+} 
+
+.juan li :hover{
+height:10px
+}
+
+.juan li ul li {
+position: relative;
+}
+
+.juan li ul li ul {
+right:-140px;
+top:0px
+}
+
+
+p{
+color:white;
+
+opacity:.6;
+-webkit-transition:padding-top .4s;
+transition:padding-top .4s;
+}
+
+
+
+body{background-color:#33cc99;}
+
+
+header{
+Font-Family:Franklin Gothic Heavy;
+Color:black;
+}
+
+blockquote{
+Font-family:Comic Sans MS;
+Color:;
+
+}
